@@ -1,0 +1,71 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h3 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid red;
+	border-radius: 100%;
+}
+
+#landing {
+	/*vh- viewport height-- determine measured percentage
+	of the height of the device you are viewing the webpage in*/
+	height: 90vh;
+	/*flexbox---- arrange layout elements horizontally and
+	 vertically. By default, arranges elements inside the parent element*/
+	display: flex;
+	flex-direction: column;
+	/*align-items--- for horizontal alignment*/
+	align-items: center;
+	/*justify-content--- arranges horizontaly if flex is row however
+	it arranges vertically if flex is in column*/
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #FFF08D;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h3 {
+	color: #007bff;
+}
+
+.tools {
+	/*line around the element*/
+	border: 5px solid #f2f2f2;
+	/*space outside the element*/
+	margin: 20px;
+	/*space inside the element*/
+	padding: 25px;
+	height: 200px;
+	/*percentage as measurement per width based on the total width of the parent element*/
+	width: 75%;
+}
+
+/*makes scrolling of page smooth*/
+html {
+	scroll-behavior: smooth;
+}
+
+/*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*/
